@@ -31,7 +31,7 @@ func main() {
 
 	// CORS middleware configuration
 	router.Use(cors.New(cors.Config{
-		AllowOrigins:     []string{"https://api.maliki-mcc.com"},
+		AllowOrigins:     []string{"https://maliki-mcc.com"},
 		AllowMethods:     []string{"GET", "POST", "PUT", "DELETE", "OPTIONS"},
 		AllowHeaders:     []string{"Origin", "Content-Type", "Accept"},
 		ExposeHeaders:    []string{"Content-Length"},
